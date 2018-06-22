@@ -28,11 +28,11 @@ RUN apk --no-cache add php7 \
 	php7-session \
 	nginx \
 	supervisor \
-	curl
+	curl \
+	openssl \
+	wget
 
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- \
         --install-dir=/usr/local/bin \
         --filename=composer
-
-
