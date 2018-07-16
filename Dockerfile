@@ -30,7 +30,8 @@ RUN apk --no-cache add php7 \
 	supervisor \
 	curl \
 	openssl \
-	wget
+	wget \
+	git
 
 # Install Composer
 RUN curl -sS https://getcomposer.org/installer | php -- \
