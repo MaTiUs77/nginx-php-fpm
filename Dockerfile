@@ -26,6 +26,7 @@ RUN apk --no-cache add php7 \
 	php7-pcntl \
 	php7-posix \
 	php7-session \
+	php7-iconv \
 	nginx \
 	supervisor \
 	curl \
